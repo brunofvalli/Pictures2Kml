@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ExifLib" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pictures2Kml.DL.Interfaces\Pictures2Kml.DL.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
